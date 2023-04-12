@@ -8,4 +8,8 @@ def main(x):
     Returns:
         bool: answer
     """
-    return 
+    first=x%10
+    second=x//10
+    return first==second
+print(main(22))
+
