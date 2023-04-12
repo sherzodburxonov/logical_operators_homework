@@ -6,4 +6,8 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    first=a//10
+    second=a%10
+    return (first+second)%2==0
+print(main(35))
+    
